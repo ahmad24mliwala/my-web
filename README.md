@@ -6,13 +6,13 @@ As part of a my-web project, I design and implemented a Github action workflow s
 ## Stesps:
 ### 1. Setting up the project repository: 
 
-    Create one project directory on terminal.Create a Repository for my-web project on git hub.Clone the newly crteated my-web repo to integrated project
-    terminal. copy my-web project code to project directory. run "git status" command it will display the current status of your local repository, showing
-    any changes that have been made to files, and whether or not they have been staged (added to the staging area) or committed (added to the local       
-    repository). run "git commit -m "add code" " it will create a new commit with the changes you have staged, along with the commit message you provided.
-    The commit will be saved to the local repository history. Run "git push origin main" It will push the changes in your local repository to the remote  
-    repository. Specifically, this command pushes the changes on the local "main" branch to the "main" branch on the remote repository (in this case, the 
-    remote repository is named "origin").
+Create one project directory on terminal.Create a Repository for my-web project on git hub.Clone the newly crteated my-web repo to integrated project
+terminal. copy my-web project code to project directory. run "git status" command it will display the current status of your local repository, showing
+any changes that have been made to files, and whether or not they have been staged (added to the staging area) or committed (added to the local       
+repository). run "git commit -m "add code" " it will create a new commit with the changes you have staged, along with the commit message you provided.
+The commit will be saved to the local repository history. Run "git push origin main" It will push the changes in your local repository to the remote  
+repository. Specifically, this command pushes the changes on the local "main" branch to the "main" branch on the remote repository (in this case, the 
+remote repository is named "origin").
    
 ### 2. Create one S3 bucket on AWS:
     Create S3 bucket on Aws with name my-web. while creating S3 bucket allow public access to S3 bucket then click on create bucket.
@@ -23,7 +23,7 @@ As part of a my-web project, I design and implemented a Github action workflow s
     
    #### Jobs Performed by github Action
     
-    - It will deploy one ubuntu VM environment to run jobs.
+- It will deploy one ubuntu VM environment to run jobs.
     - By using "actions/checkout@v1" it will check over code.
     - To access Aws account by configuring Aws credentials in github action work flow using "aws-actions/configure-aws-credentials@v1".
     - In Aws IAM got Users create a access key for CLI.
@@ -43,7 +43,7 @@ As part of a my-web project, I design and implemented a Github action workflow s
      s3 bucket click on properties goto static web site hosting and a link from static web site hosting and paste it browser it will run my-web wesite.
     
 ## Key technologies used: 
-    - Github
+- Github
     - Github Action
     - AWS S3
     - AWS IAM
