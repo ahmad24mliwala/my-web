@@ -11,8 +11,7 @@ Create one project directory on terminal.Create a Repository for my-web project 
 terminal. copy my-web project code to project directory. run "git status" command it will display the current status of your local repository, showing
 any changes that have been made to files, and whether or not they have been staged (added to the staging area) or committed(added to the loca lrepository). 
 run "git commit -m "add code" " it will create a new commit with the changes you have staged, along with the commit message you provided. The commit will 
-be saved to the local repository history. Run "git push origin main" It will push the changes in your local repository to the remote repository. 
-Specifically, this command pushes the changes on the local "main" branch to the "main" branch on the remote repository (in this case, the remote repository 
+be saved to the local repository history. Run "git push origin main" It will push the changes in your local repository to the remote repository. Specifically, this command pushes the changes on the local "main" branch to the "main" branch on the remote repository (in this case, the remote repository 
 is named "origin").
    
 ### 2. Create one S3 bucket on AWS:
@@ -30,8 +29,7 @@ any changes in my-web main branch of git repository the work flow will start wor
 - By using "actions/checkout@v1" it will check over code.
 - To access Aws account by configuring Aws credentials in github action work flow using "aws-actions/configure-aws-credentials@v1".
 - In Aws IAM got Users create a access key for CLI.
-- In github go to Settings, Secrate and Variable select Actions Create New repository secretes Enter Name "AWS_ACCESS_KEY_ID" and copy access key ID       
-from aws portal and paste it to Secrate. same steps for access key give name as "AWS_SECRET_ACCESS_KEY".
+- In github go to Settings, Secrate and Variable select Actions Create New repository secretes Enter Name "AWS_ACCESS_KEY_ID" and copy access key ID      from aws portal and paste it to Secrate. same steps for access key give name as "AWS_SECRET_ACCESS_KEY".
 - By using command "aws s3 sync . s3://my-web-project" it will take a code from github and sync to Aws bucket and deploy web on S3 bucket.
  
  ### 4. Enable Static Website Hosting.
