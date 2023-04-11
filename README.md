@@ -43,8 +43,8 @@ Go to S3 bucket click on permissions go to bucket policy and click on edit write
       
 ### 6. Deploying website on AWS S3.
 
-Go to termianal. open index.html make some changes save it. Run command "git add index.html" then run "git commit -m "make some changes" ". and push  
-it using command "git push origin main". Now goto github repo click on action It will start performing the deployment. one Deployment done. go to aws 
+Go to termianal. open index.html make some changes save it. Run command "git add index.html" then run "git commit -m "make some changes" ". and push it 
+using command "git push origin main". Now goto github repo click on action It will start performing the deployment. one Deployment done. go to aws 
 s3 bucket click on properties goto static web site hosting and a link from static web site hosting and paste it browser it will run my-web wesite.
     
 ## Key technologies used: 
@@ -62,9 +62,8 @@ s3 bucket click on properties goto static web site hosting and a link from stati
 
 
 
-    <img width="1396" alt="image" src="https://raw.githubusercontent.com/ahmad24mliwala/images/main/my-web-app-project-architecture.jpg?raw=true">
-    
-    
+   <img width="1396" alt="image" src="https://raw.githubusercontent.com/ahmad24mliwala/images/main/my-web-app-project-architecture.jpg?raw=true">
+
 
 
 
