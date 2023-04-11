@@ -58,7 +58,7 @@ s3 bucket click on properties goto static web site hosting and a link from stati
 - My-web Code
     
     
-## Architecture
+## Daigram
 
 
 
