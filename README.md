@@ -12,7 +12,7 @@ Amazon S3 is a highly scalable and cost-effective object storage service that al
 
 The goal of this project is to automate the deployment of a website to an AWS S3 bucket using Github Actions. I will create a Github repository to host the website code and configure a Github Actions workflow that will build the website and deploy it to the S3 bucket.
 
-## Stesps:
+## Steps:
 
 ### 1. Setting up the project repository: 
 
@@ -67,7 +67,7 @@ s3 bucket click on properties goto static web site hosting and a link from stati
 - My-web Code
     
     
-## Daigram
+## Daigram:
 
 
 
