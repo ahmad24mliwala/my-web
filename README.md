@@ -6,11 +6,11 @@ As part of a my-web project, I design and implemented a Github action workflow s
 
 ## Introduction:
 
-Deploying a website to a production environment can be a complex and time-consuming process. However, with the right tools and techniques, it can be streamlined and automated. In this project, we will use Github Actions to deploy a website to an AWS S3 bucket automatically.
+Deploying a website to a production environment can be a complex and time-consuming process. However, with the right tools and techniques, it can be streamlined and automated. In this project, I will use Github Actions to deploy a website to an AWS S3 bucket automatically.
 
 Amazon S3 is a highly scalable and cost-effective object storage service that allows us to store and retrieve any amount of data, including website files. Github Actions is a powerful workflow automation tool that allows us to automate our software development workflows.
 
-The goal of this project is to automate the deployment of a website to an AWS S3 bucket using Github Actions. We will create a Github repository to host the website code and configure a Github Actions workflow that will build the website and deploy it to the S3 bucket.
+The goal of this project is to automate the deployment of a website to an AWS S3 bucket using Github Actions. I will create a Github repository to host the website code and configure a Github Actions workflow that will build the website and deploy it to the S3 bucket.
 
 ## Stesps:
 
